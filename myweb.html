@@ -1,0 +1,67 @@
+<head>
+<title>Login Page</title>
+<style>
+body{
+background-image:url('https://i.pinimg.com/originals/91/fc/54/91fc549c130f969b61afa9065ad2132d.gif');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:cover;
+}
+
+h1{
+  color: #FFA500;
+  font-size:50px;
+  }
+  
+p{
+  color:#FFA500;
+  font-size:20px;
+  }
+</style>
+</head>
+<body><br><br><br><br>
+<h1><center> welcome </center></h1><br><br><br>
+<form method="post" action="std.html">
+<table width="20%" bgcolor="0099CC" align="center">
+
+<tr>
+<td colspan=2><center><font size=4><b>LOGIN PAGE</b></font></center></td>
+</tr>
+
+<tr>
+<td>USER:</td>
+<td><input type="text" name="userid"></td>
+</tr>
+
+<tr>
+<td>PASSWORD::</td>
+<td><input type="Password" name="pwd"></td>
+</tr>
+
+<tr>
+<td ><input type="Reset"></td>
+<td><input type="submit" onclick="return check(this.form)" value="Login"></td>
+</tr>
+
+</table>
+</form>
+<center><p>THIS WEBSITE HELPS YOU TO KNOW ABOUT THE STUDENT DETAILS IN THE 3-CSSE LENDI</p></center>
+<script language="javascript">
+function check(form)
+{
+
+if(form.userid.value == "pavankumar" && form.pwd.value == "csse1537")
+{
+    return True;
+}
+else
+{
+    alert("Error Password or Username")
+    return false;
+}
+}
+</script>
+
+<h1><center> Thank you for visiting my page </center></h1>
+</body>
+</html>
